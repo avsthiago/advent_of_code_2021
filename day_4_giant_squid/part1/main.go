@@ -19,8 +19,6 @@ type Boarder interface {
 type Board struct {
 	board        [][]int
 	marked_board [5][5]bool
-	line_victory int
-	col_victory  int
 }
 
 func NewBoard() *Board {
